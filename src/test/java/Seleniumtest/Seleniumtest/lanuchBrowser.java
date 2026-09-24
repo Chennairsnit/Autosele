@@ -26,6 +26,8 @@ public class lanuchBrowser {
     driver.findElement(By.name("password")).sendKeys("admin123");
 	
 	driver.findElement(By.xpath("//button[@type='submit']")).click();
+	
+	driver.quit();
 
 }
 	
